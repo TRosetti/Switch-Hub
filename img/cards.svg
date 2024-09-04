@@ -1,0 +1,11 @@
+<svg width="var(--card-width)" height="var(--card-height)" viewBox="0 0 322 258" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 18C1 8.61116 8.61116 1 18 1H286.416C291.144 1 295.658 2.96877 298.875 6.43354L316.459 25.3738C319.378 28.5181 321 32.6498 321 36.9403V239.642C321 249.031 313.389 256.642 304 256.642H18C8.61117 256.642 1 249.031 1 239.642V18Z" fill="#110911" stroke="url(#paint0_linear_1134_3)"/>
+<defs>
+<linearGradient id="paint0_linear_1134_3" x1="429.248" y1="35.8603" x2="-46.7607" y2="151.653" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7411C2"/>
+<stop offset="0.153862" stop-color="#EAEE19" stop-opacity="0.65"/>
+<stop offset="0.612781" stop-color="#FF13E7"/>
+<stop offset="1" stop-color="#070583"/>
+</linearGradient>
+</defs>
+</svg>
