@@ -4,21 +4,27 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 body{
-    background-color: black;
+   
+    background: linear-gradient(179deg, rgb(66, 8, 71) 1.27%, #000 9.28%);
     color: white;
-    height: 200vh;
+  
+}
+
+
+.bg-header{
+    background: linear-gradient(to bottom,  #340838a9, #000);
 }
 .mobile{
     display: none;
 }
 
-.top-effect{
+/* .top-effect{
     background-color: #CE28DC;
-   
-    filter: blur(350px);
+    backdrop-filter: blur(350px);
     -webkit-backdrop-filter: blur(350px);
     max-width: 1197px;
     width: 70%;
@@ -27,21 +33,32 @@ body{
     top: 0%;
     left: 0%;
     z-index: -5;
-}
+} */
 
-.mid-effect{
+/* .mid-effect{
     position: absolute;
- 
-    background-color: #CE28DC;
+    background-color: #771680;
     filter: blur(300px);
-    
+    -webkit-filter: blur(300%);
     max-width: 500px;
     width: 90%;
     height: 300px;
     z-index: -5;
     top: 0px;
     right: 0;
-}
+} */
+/* 
+.bottom-effect{
+    position: absolute;
+    background-color: #CE28DC;
+    backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(200px);
+    width: 150px;
+    height: 400px;
+    bottom: -150px;
+    left: 0;
+} */
+
 
 strong{
     font-weight: 700;
@@ -114,7 +131,8 @@ span{
 
 /*   */
 header{
-    margin-top: 30px !important;
+    /* margin-top: 30px !important; */
+    padding-top: 30px !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -255,14 +273,6 @@ svg .draw{
 }
 
 
-.cards{
-    margin-top: 30px;
-    width: var(--card-width);
-    height: var(--card-height);
-    padding: 20px;
-    background: url(../img/cards.svg);
-    position: relative;
-}
 
 
 
@@ -413,19 +423,6 @@ h2{
     border-radius: 20px;
 }
 
-.bottom-effect{
-
-    position: absolute;
-    background-color: #CE28DC;
-    filter: blur(200px);
-    
-    width: 150px;
-    height: 400px;
-    
-    bottom: -150px;
-    left: 0;
-
-}
 
 .especialista{
     margin-top: 100px;
